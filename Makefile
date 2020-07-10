@@ -5,4 +5,4 @@ btree.dot: btree
 	./btree > btree.dot
 
 btree: main.cpp
-	clang++ -Wall -std=c++17 -o btree main.cpp
+	clang++ -Wall -std=c++17 -ggdb -o btree main.cpp
